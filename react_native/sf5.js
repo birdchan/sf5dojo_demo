@@ -1,0 +1,192 @@
+
+
+var char_obj_list = {
+    'abigail': {
+        'id': 'abigail',
+        'name': 'Abigail',
+        'filename': 'abigail.png',
+        'img_src': require('./images/characters/abigail.png'),
+    },
+    'akuma': {
+        'id': 'akuma',
+        'name': 'Akuma',
+        'filename': 'akuma.png',
+        'img_src': require('./images/characters/akuma.png'),
+    },
+    'alex': {
+        'id': 'alex',
+        'name': 'Alex',
+        'filename': 'alex.png',
+        'img_src': require('./images/characters/alex.png'),
+    },
+    'balrog': {
+        'id': 'balrog',
+        'name': 'Balrog',
+        'filename': 'balrog.png',
+        'img_src': require('./images/characters/balrog.png'),
+    },
+    'birdie': {
+        'id': 'birdie',
+        'name': 'Birdie',
+        'filename': 'birdie.png',
+        'img_src': require('./images/characters/birdie.png'),
+    },
+    'blanka': {
+        'id': 'blanka',
+        'name': 'Blanka',
+        'filename': 'blanka.png',
+        'img_src': require('./images/characters/blanka.png'),
+    },
+    'cammy': {
+        'id': 'cammy',
+        'name': 'Cammy',
+        'filename': 'cammy.png',
+        'img_src': require('./images/characters/cammy.png'),
+    },
+    'chunli': {
+        'id': 'chunli',
+        'name': 'Chun-Li',
+        'filename': 'chunli.png',
+        'img_src': require('./images/characters/chunli.png'),
+    },
+    'dhalsim': {
+        'id': 'dhalsim',
+        'name': 'Dhalsim',
+        'filename': 'dhalsim.png',
+        'img_src': require('./images/characters/dhalsim.png'),
+    },
+    'ed': {
+        'id': 'ed',
+        'name': 'Ed',
+        'filename': 'ed.png',
+        'img_src': require('./images/characters/ed.png'),
+    },
+    'fang': {
+        'id': 'fang',
+        'name': 'F.A.N.G.',
+        'filename': 'fang.png',
+        'img_src': require('./images/characters/fang.png'),
+    },
+    'falke': {
+        'id': 'falke',
+        'name': 'Falke',
+        'filename': 'falke.png',
+        'img_src': require('./images/characters/falke.png'),
+    },
+    'guile': {
+        'id': 'guile',
+        'name': 'Guile',
+        'filename': 'guile.png',
+        'img_src': require('./images/characters/guile.png'),
+    },
+    'ibuki': {
+        'id': 'ibuki',
+        'name': 'Ibuki',
+        'filename': 'ibuki.png',
+        'img_src': require('./images/characters/ibuki.png'),
+    },
+    'juri': {
+        'id': 'juri',
+        'name': 'Juri',
+        'filename': 'juri.png',
+        'img_src': require('./images/characters/juri.png'),
+    },
+    'karin': {
+        'id': 'karin',
+        'name': 'Karin',
+        'filename': 'karin.png',
+        'img_src': require('./images/characters/karin.png'),
+    },
+    'ken': {
+        'id': 'ken',
+        'name': 'Ken',
+        'filename': 'ken.png',
+        'img_src': require('./images/characters/ken.png'),
+    },
+    'kolin': {
+        'id': 'kolin',
+        'name': 'Kolin',
+        'filename': 'kolin.png',
+        'img_src': require('./images/characters/kolin.png'),
+    },
+    'laura': {
+        'id': 'laura',
+        'name': 'Laura',
+        'filename': 'laura.png',
+        'img_src': require('./images/characters/laura.png'),
+    },
+    'mbison': {
+        'id': 'mbison',
+        'name': 'M. Bison',
+        'filename': 'mbison.png',
+        'img_src': require('./images/characters/mbison.png'),
+    },
+    'menat': {
+        'id': 'menat',
+        'name': 'Menat',
+        'filename': 'menat.png',
+        'img_src': require('./images/characters/menat.png'),
+    },
+    'rmika': {
+        'id': 'rmika',
+        'name': 'R. Mika',
+        'filename': 'r-mika.png',
+        'img_src': require('./images/characters/r-mika.png'),
+    },
+    'nash': {
+        'id': 'nash',
+        'name': 'Nash',
+        'filename': 'nash.png',
+        'img_src': require('./images/characters/nash.png'),
+    },
+    'necalli': {
+        'id': 'necalli',
+        'name': 'Necalli',
+        'filename': 'necalli.png',
+        'img_src': require('./images/characters/necalli.png'),
+    },
+    'rashid': {
+        'id': 'rashid',
+        'name': 'Rashid',
+        'filename': 'rashid.png',
+        'img_src': require('./images/characters/rashid.png'),
+    },
+    'ryu': {
+        'id': 'ryu',
+        'name': 'Ryu',
+        'filename': 'ryu.png',
+        'img_src': require('./images/characters/ryu.png'),
+    },
+    'sakura': {
+        'id': 'sakura',
+        'name': 'Sakura',
+        'filename': 'sakura.png',
+        'img_src': require('./images/characters/sakura.png'),
+    },
+    'urien': {
+        'id': 'urien',
+        'name': 'Urien',
+        'filename': 'urien.png',
+        'img_src': require('./images/characters/urien.png'),
+    },
+    'vega': {
+        'id': 'vega',
+        'name': 'Vega',
+        'filename': 'vega.png',
+        'img_src': require('./images/characters/vega.png'),
+    },
+    'zangief': {
+        'id': 'zangief',
+        'name': 'Zangief',
+        'filename': 'zangief.png',
+        'img_src': require('./images/characters/zangief.png'),
+    },
+    'zeku': {
+        'id': 'zeku',
+        'name': 'Zeku',
+        'filename': 'zeku.png',
+        'img_src': require('./images/characters/zeku.png'),
+    },
+};
+
+export default char_obj_list;

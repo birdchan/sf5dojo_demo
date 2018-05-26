@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "SFV Dojo",
+    "icon": "../icon/android_icons/icon_512.png",
+    "version": "0.1.0",
+    "slug": "sfvdojo",
+    "sdkVersion": "27.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.example.sfvdojo"
+    }
+  }
+}
